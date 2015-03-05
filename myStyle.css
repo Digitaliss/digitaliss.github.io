@@ -1,0 +1,86 @@
+.container {
+  background-color: black;
+  opacity: 0.85;
+  width: 90%;
+  max-width: 333px;
+  margin: 0 left;
+}
+
+.contact ul li{
+	padding: 0 0 0 42px;
+	font-size:18px;
+}
+
+body{
+  background-color: black;
+  font-family: Monaco, Terminal, monospace;
+  color: LimeGreen;
+  letter-spacing: -0.03em;
+ 
+}
+header {
+  background-image: url(assets/header.png);
+  background-size: 450px;
+  background-repeat: repeat-x;
+  background-origin: padding-box;
+  width: 100%;
+  padding: 40px 0;
+  border-bottom: 2px dashed Lime;
+  margin: 0 0 50px 0;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0 0 0 -40px;
+  padding: 3px 50px;
+  font-weight: bold;
+  font-family: Monaco, Terminal, monospace;
+  color: Lime;
+  letter-spacing: -1px;
+}
+
+header h1:before {
+  content: "./ ";
+  font-size: 40px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+h3{
+  font-size: 20px;
+  padding: 0 0 0 42px;
+  color: Green;
+}
+
+h3:before {
+  content: ">>";
+  font-size: 20px;
+  color: Green;
+  margin-left: -37px;
+  margin-right: 21px;
+  line-height: 16px;
+ }
+
+ul li {
+  font-size: 20px;
+  color: Green;
+  list-style: none;
+  padding:3px;
+}
+
+ul li:before {
+  content: ">>";
+  font-size: 20px;
+  color: Green;
+  margin-left: -37px;
+  margin-right: 21px;
+  line-height: 16px;
+}
+
+a {
+  color: DodgerBlue;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
