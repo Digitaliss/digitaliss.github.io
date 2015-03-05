@@ -11,12 +11,14 @@
 	font-size:18px;
 }
 
-body{
+html,body{
   background-color: black;
   font-family: Monaco, Terminal, monospace;
   color: LimeGreen;
   letter-spacing: -0.03em;
   height:100%;
+  margin:0;
+  padding:0;
  
 }
 .wrapper{
