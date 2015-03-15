@@ -1,0 +1,87 @@
+html,body{
+  background-color: MintCream;
+  height:100%;
+  margin:0;
+  padding:0; 
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.wrapper{
+  min-height:100%;
+  position:relative;
+}
+
+header, footer {
+  background-color: PowderBlue;
+  width: 100%;
+  padding: 10px 40px 10px 0;
+  margin: 0 0 10px 0;  
+  color: MintCream;
+}
+
+section{
+ padding-bottom: 20px;
+ color: PowderBlue;
+}
+
+table{
+	border: thick solid PowderBlue;
+	color: PowderBlue;
+	margin: 0 auto;
+	padding: 10px;
+	border-spacing:2px 0px;
+}
+
+th{
+	width: 200px;
+	height: 25px;
+	font-size:115%;
+}
+
+td{
+	width: 200px;
+	height: 25px;
+	padding:0px;
+}
+
+#addButtonTd{
+	text-align:left;
+	width:150px;
+}
+
+button{
+	width: 100px;
+	height: 25px;
+}
+
+.remBut{
+	text-align:left;
+	width:150px;
+}
+
+.rb{
+	margin:3px;
+
+}
+
+#courseList table{
+	border-style:none;
+	margin: 0;
+	padding: 2px;
+	border-spacing:2px 8px;
+}
+
+#GPADiv{
+	width:400px;
+	height:60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background-color: MintCream;
+	color: MintCream;
+	padding: 4px;
+
+}

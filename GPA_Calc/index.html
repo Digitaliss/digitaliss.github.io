@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<!-- Jennifer's GPA Calculator -->
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="myStyle.css"/>
+		<script type = "text/javascript"  src = "myScript.js" ></script>
+		<title>Jennifer's GPA Calculator</title>
+		<meta charset = "utf-8"/>
+		<meta name = "Author" content = "Jennifer Sunahara"/>
+		<meta name = "Description" content = "Calculate your GPA with this calculator!"/>
+		<meta name = "Keywords" content = "GPA, Calculator, Grade, Point, Average"/>
+	</head>
+	<body onload="begin()">
+		<div class="wrapper">
+			<header>
+				<div class="container">
+					<h1>GPA Calculator</h1>
+				</div>
+			</header>
+			<section>
+				<form onreset="clearCourses()">
+					<table>
+						<tr>
+							<th>Course Name</th>
+							<th>Credits</th>
+							<th>Grade</th>
+						</tr>
+						<tr>
+							<td colspan="4"><div id="courseList"></div></td>
+						</tr>
+						<tr>
+							<td><input name="course" id="course" type="text" size="15"/></td>
+							<td><input name="credits" id="credits" type="text" size="15"/></td>
+							<td>
+								<select name = "grade" id= "grade">
+									<option value = "A+">A+ </option>
+									<option value = "A">A</option>
+									<option value = "A-">A-</option>
+									<option value = "B+">B+ </option>
+									<option value = "B">B</option>
+									<option value = "B-">B-</option>
+									<option value = "C+">C+ </option>
+									<option value = "C">C</option>
+									<option value = "C-">C-</option>
+									<option value = "D+">D+ </option>
+									<option value = "D">D</option>
+									<option value = "D-">D-</option>
+									<option value = "F">F</option>
+								</select>
+							</td>
+							<td id="addButtonTd"><button type="button" onclick="add()" id="addButton" >Add</button> </td>
+						</tr>
+					</table>
+					<br />
+										
+					<input type="reset" value="Clear" /><br />
+					<div id="GPADiv">
+						<h2 id="GPA"></h2>
+					</div>
+				</form>
+					
+			</section>
+			<footer>
+				<div class="container">
+					<h3>GPA Calculator brought to you by Calculat'Arrrr.</h3>
+					<h4>Calculat'Arrrr has tailored this GPA Calculator for Concordia University.</h4>
+				</div>
+			</footer>
+		</div>
+	
+	</body>
+</html>
