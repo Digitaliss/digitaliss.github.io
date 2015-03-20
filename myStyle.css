@@ -36,7 +36,7 @@ header {
   margin: 0 0 50px 0;
 }
 section{
- padding-bottom: 50px;
+ padding-bottom: 200px;
 }
 
 footer{
@@ -51,7 +51,7 @@ footer{
   position: absolute;
   padding: 40px 0;
   border-top: 2px dashed Lime;
-  margin: 50px 0 0 0;
+  /*margin: 50px 0 0 0;*/
 }
 
 header h1 {
