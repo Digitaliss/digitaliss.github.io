@@ -11,6 +11,11 @@
 	font-size:18px;
 }
 
+.projects ul li{
+	padding: 0 0 0 42px;
+	font-size:18px;
+}
+
 html,body{
   background-color: black;
   font-family: Monaco, Terminal, monospace;
